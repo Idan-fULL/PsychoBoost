@@ -1,0 +1,22 @@
+.page-container.hidden {
+  display: none;
+}
+
+.table-container {
+  margin-bottom: 60px; /* Ensure space for the button */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.learn-button {
+  position: fixed;
+  bottom: 70px; /* Adjust as necessary to fit above BottomNav */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}

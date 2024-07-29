@@ -1,0 +1,13 @@
+/* SettingsPage.css */
+
+.page-container {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

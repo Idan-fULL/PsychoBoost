@@ -1,0 +1,42 @@
+/* LearningOverlay.css */
+.overlay-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: none; /* Hidden by default */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  z-index: 997; /* Ensure it's behind the actual overlay */
+}
+
+.overlay-background.show {
+  display: flex; /* Show when the overlay is active */
+}
+
+.overlay {
+  position: fixed;
+  bottom: -100%; /* Start off-screen */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 350px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: 998;
+}
+
+.overlay.show {
+  bottom: 20%; /* Adjust to place in the middle of the screen */
+  opacity: 1;
+}
+
+.overlay-content {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

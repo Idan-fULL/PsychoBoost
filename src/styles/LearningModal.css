@@ -1,0 +1,23 @@
+/* LearningModal.css */
+
+.learning-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 2rem;
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+.modal-button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 10px 20px;
+}

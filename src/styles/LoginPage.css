@@ -1,0 +1,28 @@
+/* LearningPage.css */
+
+.learning-page {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.16);
+  z-index: 1300; /* Higher than the bottom navigation */
+}
+
+.learning-page-content {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.learning-page-button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 10px 20px;
+}
